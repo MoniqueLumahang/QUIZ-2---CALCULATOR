@@ -1,0 +1,44 @@
+box {
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.container {
+    background-color: rgb(116, 189, 238);
+    border: 2px solid black;
+    padding: 25px;
+    display: flexbox;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.container input {
+    margin-bottom: 15px;
+}
+
+#btn {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(170, 61, 61);
+}
+
+#btn:hover {
+    color: black;
+    background-color: rgb(207, 160, 160);
+}
+
+.result {
+    border: 2px solid black;
+    padding: 0 25px;
+    margin: auto;
+    width: 30%;
+    background-color: rgb(141, 228, 141);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
